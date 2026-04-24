@@ -9,6 +9,7 @@
 		"lint:fix": "eslint src --fix",
 		"build": "tsc && vite build",
 		"preview": "vite preview",
+		"deploy": "gh-pages -d dist",
 		"format": "npx dprint fmt",
 		"download-images": "npx tsx scripts/downloadImages.ts",
 		"pack-textures": "npx tsx scripts/packTextures.ts"
@@ -26,6 +27,7 @@
 		"eslint-plugin-de-morgan": "^2.1.1",
 		"eslint-plugin-sonarjs": "^4.0.3",
 		"eslint-plugin-unicorn": "^64.0.0",
+		"gh-pages": "^6.3.0",
 		"globals": "^17.5.0",
 		"typescript": "~6.0.2",
 		"vite": "^8.0.9"
