@@ -1,0 +1,35 @@
+{
+	"rows": 9,
+	"cols": 9,
+	"numColors": 5,
+	"targetScore": 1000,
+	"maxMoves": 35,
+	"minGroupSize": 2,
+	"maxShuffles": 3,
+	"boosters": {
+		"bomb": { "radius": 1, "count": 3 },
+		"teleport": { "count": 3 }
+	},
+	"tiles": {
+		"red": "block_red",
+		"blue": "block_blue",
+		"green": "block_green",
+		"yellow": "block_yellow",
+		"purple": "block_purpure"
+	},
+	"superTiles": {
+		"bombRadius": 2,
+		"canDrop": true,
+		"textures": {
+			"rocket_row": "block_rockets_horisontal",
+			"rocket_col": "block_rakets",
+			"bomb": "block_bomb",
+			"bomb_max": "block_bomb_max"
+		},
+		"spawnRules": [
+			{ "minGroupSize": 11, "types": ["bomb_max"] },
+			{ "minGroupSize": 7, "types": ["bomb"] },
+			{ "minGroupSize": 5, "types": ["rocket_row", "rocket_col"] }
+		]
+	}
+}

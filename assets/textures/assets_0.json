@@ -1,0 +1,132 @@
+{
+	"frames": {
+		"bg_booster": {
+			"frame": { "x": 731, "y": 803, "w": 211, "h": 346 },
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 211, "h": 346 },
+			"sourceSize": { "w": 211, "h": 346 }
+		},
+		"bg_frame_moves": {
+			"frame": { "x": 731, "y": 5, "w": 294, "h": 287 },
+			"rotated": true,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 294, "h": 287 },
+			"sourceSize": { "w": 294, "h": 287 }
+		},
+		"bg_frame_play": {
+			"frame": { "x": 731, "y": 305, "w": 272, "h": 258 },
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 272, "h": 258 },
+			"sourceSize": { "w": 272, "h": 258 }
+		},
+		"bg_moves": {
+			"frame": { "x": 731, "y": 569, "w": 228, "h": 228 },
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 228, "h": 228 },
+			"sourceSize": { "w": 228, "h": 228 }
+		},
+		"block_blue": {
+			"frame": { "x": 859, "y": 1390, "w": 100, "h": 112 },
+			"rotated": true,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 112 },
+			"sourceSize": { "w": 100, "h": 112 }
+		},
+		"block_bomb": {
+			"frame": { "x": 5, "y": 1496, "w": 100, "h": 112 },
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 112 },
+			"sourceSize": { "w": 100, "h": 112 }
+		},
+		"block_bomb_max": {
+			"frame": { "x": 5, "y": 1291, "w": 100, "h": 112 },
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 112 },
+			"sourceSize": { "w": 100, "h": 112 }
+		},
+		"block_green": {
+			"frame": { "x": 5, "y": 1614, "w": 100, "h": 112 },
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 112 },
+			"sourceSize": { "w": 100, "h": 112 }
+		},
+		"block_purpure": {
+			"frame": { "x": 5, "y": 1732, "w": 100, "h": 112 },
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 112 },
+			"sourceSize": { "w": 100, "h": 112 }
+		},
+		"block_rakets": {
+			"frame": { "x": 5, "y": 1850, "w": 100, "h": 112 },
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 112 },
+			"sourceSize": { "w": 100, "h": 112 }
+		},
+		"block_red": {
+			"frame": { "x": 111, "y": 1496, "w": 100, "h": 112 },
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 112 },
+			"sourceSize": { "w": 100, "h": 112 }
+		},
+		"block_rockets_horisontal": {
+			"frame": { "x": 111, "y": 1291, "w": 100, "h": 112 },
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 112 },
+			"sourceSize": { "w": 100, "h": 112 }
+		},
+		"block_yellow": {
+			"frame": { "x": 111, "y": 1614, "w": 100, "h": 112 },
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 100, "h": 112 },
+			"sourceSize": { "w": 100, "h": 112 }
+		},
+		"icon_booster_teleport": {
+			"frame": { "x": 859, "y": 1289, "w": 95, "h": 117 },
+			"rotated": true,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 95, "h": 117 },
+			"sourceSize": { "w": 95, "h": 117 }
+		},
+		"img_bg_game": {
+			"frame": { "x": 5, "y": 5, "w": 1280, "h": 720 },
+			"rotated": true,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 1280, "h": 720 },
+			"sourceSize": { "w": 1280, "h": 720 }
+		},
+		"slot_booster": {
+			"frame": { "x": 731, "y": 1289, "w": 122, "h": 113 },
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 122, "h": 113 },
+			"sourceSize": { "w": 122, "h": 113 }
+		},
+		"slot_frame_moves": {
+			"frame": { "x": 731, "y": 1155, "w": 128, "h": 209 },
+			"rotated": true,
+			"trimmed": false,
+			"spriteSourceSize": { "x": 0, "y": 0, "w": 128, "h": 209 },
+			"sourceSize": { "w": 128, "h": 209 }
+		}
+	},
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "assets_0.webp",
+		"format": "RGBA8888",
+		"size": { "w": 1024, "h": 2048 },
+		"scale": "1",
+		"smartupdate": "$TexturePacker:SmartUpdate:f52e7ca615a00f6056eb4f37ab3f986b:1a3416cc47680952d4bea004583d97d6:bed90ef810ebdbaa298a6bfe16cd0952$"
+	}
+}
