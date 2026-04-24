@@ -1,0 +1,30 @@
+{
+	"lineWidth": 9999,
+	"newLineKind": "lf",
+	"useTabs": true,
+	"typescript": {
+		"quoteStyle": "alwaysDouble",
+		"quoteProps": "consistent",
+		"useBraces": "preferNone",
+		"bracePosition": "sameLine",
+		"nextControlFlowPosition": "sameLine",
+		"singleBodyPosition": "maintain",
+		"ifStatement.singleBodyPosition": "sameLine",
+		"arrowFunction.useParentheses": "force",
+		"exportDeclaration.forceSingleLine": true,
+		"importDeclaration.forceSingleLine": true,
+		"operatorPosition": "maintain",
+		"parameters.preferSingleLine": true
+	},
+	"json": {
+		"trailingCommas": "never"
+	},
+	"excludes": [
+		"**/node_modules",
+		"**/*-lock.json"
+	],
+	"plugins": [
+		"https://plugins.dprint.dev/typescript-0.95.11.wasm",
+		"https://plugins.dprint.dev/json-0.20.0.wasm"
+	]
+}

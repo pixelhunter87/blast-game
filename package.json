@@ -1,0 +1,37 @@
+{
+	"name": "blast-test",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"lint": "eslint src",
+		"lint:fix": "eslint src --fix",
+		"build": "tsc && vite build",
+		"preview": "vite preview",
+		"format": "npx dprint fmt",
+		"download-images": "npx tsx scripts/downloadImages.ts",
+		"pack-textures": "npx tsx scripts/packTextures.ts"
+	},
+	"devDependencies": {
+		"@eslint/eslintrc": "^3.3.5",
+		"@eslint/js": "^10.0.1",
+		"@stylistic/eslint-plugin": "^5.10.0",
+		"@types/node": "^25.6.0",
+		"@typescript-eslint/eslint-plugin": "^8.58.2",
+		"@typescript-eslint/parser": "^8.58.2",
+		"dotenv": "^17.4.2",
+		"dprint": "^0.54.0",
+		"eslint": "^10.2.1",
+		"eslint-plugin-de-morgan": "^2.1.1",
+		"eslint-plugin-sonarjs": "^4.0.3",
+		"eslint-plugin-unicorn": "^64.0.0",
+		"globals": "^17.5.0",
+		"typescript": "~6.0.2",
+		"vite": "^8.0.9"
+	},
+	"dependencies": {
+		"@tweenjs/tween.js": "^25.0.0",
+		"pixi.js": "^8.18.1"
+	}
+}
